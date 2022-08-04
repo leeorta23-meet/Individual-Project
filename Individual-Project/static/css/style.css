@@ -1,0 +1,75 @@
+body {
+
+ background-color: #cccccc;
+ text-align: center;
+
+}
+
+
+#pigeons_title {
+ font-size: 1500%;
+
+
+}
+
+#what_do_they_want {
+ font-size: 170%;
+
+}
+
+
+#home {
+  background-image: url("pigeonsss.jpeg");
+
+
+  height: 100%;
+ color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#post {
+  background-image: url("close up of a pigeon.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+  color: white;
+
+}
+
+
+#share_your_experience {
+ font-size: 300%;
+}
+
+#post_form{
+  font-size: 150%;   
+
+
+
+}
+
+
+
+button {
+width: 70px;
+height: 30px;
+}
+
+p {
+ font-size: 140%;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.story {
+    margin: 30px;
+    height: 50px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+}

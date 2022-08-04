@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">   
     <title></title>
 </head>
-<body>
- <big>PIGEONS</big>   
+<body id = home >
+  
+ <h1 id = pigeons_title >PIGEONS</h1>
+ <h1 id = what_do_they_want >WHAT DO THEY WANT?</h1>
+<p>to find out what they want</p>
+<a href="/signup"><button>Sign up</button></a>
+<br>
+<p>for those who already know</p>
+<a href="/login"><button>Login</button></a>
+<br>
+<p>To learn about our mission</p>
+<a href="/about"><button>About</button></a>
 </body>
 </html>

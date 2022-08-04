@@ -3,9 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">  
 	<title></title>
 </head>
 <body>
-
+	<h1>Explore other stories</h1>
+	{% for i in stories %}
+	<div class="story">	
+		<ul>
+		<li>Name:{{i['name']}}</li>
+		<li>The pigeons name: {{i['pigeons_name']}}</li>
+		<li>{{i['your_story']}}</li>
+		<br>
+		</ul>
+	</div>
+	{% endfor %}
 </body>
 </html>
